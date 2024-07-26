@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  
   <head>
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
@@ -22,19 +23,91 @@
     <title>Música para todos - Spotify</title>
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
   </head>
-  <header><!--início barra de navegação principal-->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-dark">
-      <a href="index.html" class="navbar-brand">
-        <img src="imagens/spotify.svg" width="142">
-      </a>
-
-    </nav>  
-
-   
-  </header> <!--/final da barra de navegação principal-->
   <body>
-    
+    <header><!--início barra de navegação principal-->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-transparente">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+            <img src="imagens/spotify.svg" width="142">
+          </a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="" class="nav-link">Premium</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Ajudar</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Baixar</a>
+              </li>
 
+              <li class="nav-item divisor"></li>
+
+              <li class="nav-item">
+                <a href="" class="nav-link">Inscrever-ser</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Entrar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+
+    
+    </header> <!--/final da barra de navegação principal-->
+
+    <section id="home" class="d-flex"><!--home-->
+      <div class="container align-self-center"><!--container-->
+        <div class="row"><!--row-->
+          <div class="col-md-12 capa">
+            <h1 >Ouça sem limites. Experimente 1 mês de Premium Individual grátis.</h1>
+            <a href="" class="btn btn-custom btn-branco">
+              Experimente de graça por 1 mês
+            </a>
+            <a href="" class="btn btn-custom btn-preto">
+              Ver todos os planos
+            </a>
+
+          </div>
+        </div><!--/row-->
+      </div><!--/container-->
+    </section><!--/home-->
+
+    <section id="servicos"><!--Serviços-->
+      <div class="container"><!--container-->
+        <div class="row"><!--row-->
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="imagens/img1.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-md-6">
+                <img src="imagens/img2.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="imagens/img3.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-md-6">
+                <img src="imagens/img4.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6">
+            textos
+          </div>
+
+        </div><!--/row-->
+      </div><!--/container-->
+    </section><!--/Serviços-->
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
