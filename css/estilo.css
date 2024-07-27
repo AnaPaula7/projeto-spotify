@@ -41,6 +41,7 @@ nav.navbar-transparente{
 .capa{
     text-align: center;
 }
+
 .btn-custom{
     color:white;
     border-radius: 500px;
@@ -66,6 +67,10 @@ nav.navbar-transparente{
     background: #fff;
     color: #000000;
 }
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+
 /* Estrutura de conteúdo*/
 .caixa{
     padding-top:20px;
