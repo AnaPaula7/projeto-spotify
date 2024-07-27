@@ -1,11 +1,12 @@
 html, body, #home{
     height: 100%;
+    overflow-x: hidden;
 }
 
 
 body{
     background: url(../imagens/capa.png), 
-                linear-gradient(50deg,#f7f5f5, #111011 );
+                linear-gradient(to left, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.8));
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -66,7 +67,60 @@ nav.navbar-transparente{
     color: #000000;
 }
 /* Estrutura de conteúdo*/
+.caixa{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+#servicos{
+    background: #fff;
+}
 
+#recursos h2, p{
+    color: #ffffff;
+    text-shadow: #000 1px 1px 2px;
+}
+
+#recursos h3{
+    color: #e0dede;
+    text-shadow: #000 1px 1px 2px;
+}
+.albuns{
+    padding: 10px 0;
+}
+.rotacionar{
+    -ms-transform: rotate(30deg); /*IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+/*Rodapé
+----------------------------------------------*/
+footer{
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+footer h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: #fff;
+    font-size: 0.8em;
+}
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    float: right;
+    margin: 0 5px;
+}
 
 /*Tipografia
 --------------------------*/
@@ -76,6 +130,17 @@ h1{
     margin-bottom: 50px;
     color: #fff;
 }
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
 /*media queries https://getbootstrap.com/docs/4.0/layout/overview/ */
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
